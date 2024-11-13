@@ -4,6 +4,6 @@ export interface ProductList {
 export interface Product {
     name: string;
     description: string;
-    price?: number | 0;
+    price: number | 0;
     pictures: (string)[] | [];
 }

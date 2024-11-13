@@ -1,8 +1,12 @@
-{
+const data = {
   "products": [
     {
       "name": "Colchón BOX - King 2 1/2 plazas",
-      "description": "<ul><li><strong>Color:</strong> Gris</li><li><strong>Material:</strong> Tela</li><li><strong>Medidas:</strong> Largo: 190 cm Ancho: 140 cm Alto: 25 cm</li></ul>",
+      "description": `
+        <ul>
+          <li><strong>Color:</strong> Gris</li><li><strong>Material:</strong> Tela</li><li><strong>Medidas:</strong> Largo: 190 cm Ancho: 140 cm Alto: 25 cm</li>
+        </ul>
+      `,
       "price": 240000,
       "pictures": [
         "images/products/colchón.webp"
@@ -29,3 +33,7 @@
     }
   ]
 }
+
+const json = JSON.parse(JSON.stringify(data))
+
+export default json

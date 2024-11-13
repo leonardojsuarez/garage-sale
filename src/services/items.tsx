@@ -1,6 +1,6 @@
-import db from '../db/database.json'
+import json from '../db/database.ts'
 import { ProductList } from '../interfaces'
 
 export const DataService = (): ProductList => {
-    return db ?? []
+    return json ?? []
 }
