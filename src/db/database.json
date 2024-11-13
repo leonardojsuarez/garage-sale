@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "name": "Colchón BOX - King 2 1/2 plazas",
+      "description": "<ul><li><strong>Color:</strong> Gris</li><li><strong>Material:</strong> Tela</li><li><strong>Medidas:</strong> Largo: 190 cm Ancho: 140 cm Alto: 25 cm</li></ul>",
+      "price": 240000,
+      "pictures": []
+    },
+    {
+      "name": "Sillón Reina Mora, Modelo Tokyo con camastro",
+      "description": "<ul><li><strong>Ancho:</strong> 180 cm</li><li><strong>Profundidad:</strong> 85 cm</li><li><strong>Alto:</strong> 85 cm</li></ul><p>Camastro</p><ul><li><strong>Ancho:</strong> 54 cm</li><li><strong>Alto:</strong> 44 cm</li></ul>",
+      "prices": 322000,
+      "pictures": [
+        "images/products/IMG_4188.jpg",
+        "images/products/IMG_4203.jpg",
+        "images/products/IMG_4204.jpg",
+        "images/products/IMG_4206.jpg"
+      ]
+    },
+    {
+      "name": "Bicicleta Tern Plegable Link B7",
+      "description": "<ul><li>Rodado 20</li><li>Cuadro de aluminio</li><li>7 velocidades</li></ul>",
+      "prices": 660000,
+      "pictures": [
+        "images/products/IMG_9537.jpg"
+      ]
+    }
+  ]
+}
