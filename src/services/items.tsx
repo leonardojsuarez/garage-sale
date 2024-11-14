@@ -1,6 +1,12 @@
-import json from '../db/database.ts'
-import { ProductList } from '../interfaces'
+export const DataService = async () => {
+    // return json ?? []
+    const response = await fetch('https://leonardojsuarez.sirv.com/database/db.json')
 
-export const DataService = (): ProductList => {
-    return json ?? []
+    if (!response.ok) {
+        throw new Error(`Response status: ${response.status}`);
+    }
+
+    const data = await response.json()
+
+    return data
 }

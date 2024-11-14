@@ -2,6 +2,7 @@ const data = {
   "products": [
     {
       "name": "Colchón BOX - King 2 1/2 plazas",
+      "reference": "https://articulo.mercadolibre.com.ar/MLA-1401794851-colchon-2-plazas-alta-densidad-piero-colchon-box-140x190-_JM?searchVariation=179643043622#polycard_client=search-nordic&searchVariation=179643043622&position=5&search_layout=grid&type=item&tracking_id=ff57e56d-ab5b-4e25-928d-f99fb18c5479",
       "description": `
         <ul>
           <li><strong>Color:</strong> Gris</li><li><strong>Material:</strong> Tela</li><li><strong>Medidas:</strong> Largo: 190 cm Ancho: 140 cm Alto: 25 cm</li>
@@ -9,27 +10,27 @@ const data = {
       `,
       "price": 240000,
       "pictures": [
-        "images/products/colchon1.webp"
+        "https://leonardojsuarez.sirv.com/garage-sales-images/colchon1.webp"
       ]
     },
     {
       "name": "Sillón Reina Mora, Modelo Tokyo con camastro",
       "description": "<h3 dir='ltr'>Sill&oacute;n&nbsp;</h3><ul><li dir='ltr'><strong>Ancho:</strong> 180 cm</li><li dir='ltr'><strong>Profundidad:</strong> 85 cm</li><li dir='ltr'><strong>Alto:</strong> 85 cm<strong><br></strong></li></ul><h3 dir='ltr'>Camastro</h3><ul><li dir='ltr'><strong>Ancho:</strong> 54 cm&nbsp;</li><li dir='ltr'><strong>Alto:</strong> 44 cm</li></ul>",
       "price": 322000,
-      "main_image": "images/products/sillon_1.jpg",
       "pictures": [
-        "images/products/sillon_2.jpg",
-        "images/products/sillon_3.jpg",
-        "images/products/sillon_4.jpg",
-        "images/products/sillon_1.jpg"
+        "https://leonardojsuarez.sirv.com/garage-sales-images/sillon_1.jpg",
+        "https://leonardojsuarez.sirv.com/garage-sales-images/sillon_2.jpg",
+        "https://leonardojsuarez.sirv.com/garage-sales-images/sillon_3.jpg",
+        "https://leonardojsuarez.sirv.com/garage-sales-images/sillon_4.jpg"
       ]
     },
     {
       "name": "Bicicleta Tern Plegable Link B7",
+      "reference": "https://biciurbana.com.ar/plegables/1770-plegable-tern-link-b7.html",
       "description": "<ul><li>Rodado 20</li><li>Cuadro de aluminio</li><li>7 velocidades</li></ul>",
       "price": 660000,
       "pictures": [
-        "images/products/bici_1.jpg"
+        "https://leonardojsuarez.sirv.com/garage-sales-images/bici_1.jpg"
       ]
     },
     {
@@ -40,19 +41,22 @@ const data = {
         <p><strong>Alto:</strong> 30 cm</p>
       `,
       "price": 150000,
-      "main_image": "images/products/cama_1.jpg",
-      "pictures": []
+      "pictures": [
+        "https://leonardojsuarez.sirv.com/garage-sales-images/cama_1.jpg"
+      ]
     },
     {
       "name": "Chromecast 3 Generación",
+      "reference": "https://www.mercadolibre.com.ar/google-chromecast-3-full-hd-media-streaming-negro/p/MLA20544894#polycard_client=search-nordic&wid=MLA1459903731&sid=search&searchVariation=MLA20544894&position=3&search_layout=stack&type=product&tracking_id=021f4f7b-83d5-4994-9538-8e31e00ec221",
       "description": `
         <p>Conectividad wifi y bluetooth.</p>
         <p>Interfaz de conexión HDMI.</p>
         <p>Puerto y tipo de conector: Micro-USB.</p>
       `,
-      "price": 84000,
-      "main_image": "images/products/chrome_1.jpg",
-      "pictures": []
+      "price": 65000,
+      "pictures": [
+        "https://leonardojsuarez.sirv.com/garage-sales-images/chrome_1.jpg"
+      ]
     },
     {
       "name": "Heladera con freezer Patrick Blanca HPK135CD",
@@ -68,8 +72,9 @@ const data = {
 <p dir="ltr">&nbsp;</p>
       `,
       "price": 534000,
-      "main_image": "images/products/heladera_1.jpg",
-      "pictures": []
+      "pictures": [
+        "https://leonardojsuarez.sirv.com/garage-sales-images/heladera_1.jpg"
+      ]
     },
     {
       "name": "Vaporera Eléctrica Liliana 12lts",
@@ -87,8 +92,9 @@ const data = {
 </ul>
       `,
       "price": 78000,
-      "main_image": "images/products/vaporera_1.jpg",
-      "pictures": []
+      "pictures": [
+        "https://leonardojsuarez.sirv.com/garage-sales-images/vaporera_1.jpg"
+      ]
     },
     {
       "name": "Pava Eléctrica Barista Peabody + Jarra Y Filtro Café",
@@ -98,8 +104,9 @@ const data = {
 
       `,
       "price": 400000,
-      "main_image": "images/products/pava_1.jpg",
-      "pictures": []
+      "pictures": [
+        "https://leonardojsuarez.sirv.com/garage-sales-images/pava_1.jpg"
+      ]
     },
     {
       "name": "Reposapiés angulo graduable DATA",
@@ -111,8 +118,9 @@ const data = {
 </ul>
       `,
       "price": 54000,
-      "main_image": "images/products/reposa_1.jpg",
-      "pictures": []
+      "pictures": [
+        "https://leonardojsuarez.sirv.com/garage-sales-images/reposa_1.jpg"
+      ]
     }
   ]
 }

@@ -9,8 +9,8 @@ const Home = () => {
   const [ products, setProducts ] = useState(initialState)
 
   useEffect(() => {
-    const result:ProductList = DataService()
-    setProducts({...products, products: result.products ?? []})
+    DataService()
+      .then((result) => setProducts({...products, products: result.products ?? []}))
   }, [])
 
   return (

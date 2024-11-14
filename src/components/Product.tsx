@@ -1,7 +1,8 @@
-import { Box, ButtonGroup, Grid2, ImageList, ImageListItem, Paper, Typography, Button } from '@mui/material'
+import { Box, ButtonGroup, Grid2, Paper, Typography, Button, Link } from '@mui/material'
 import { ProductProps } from '../types'
 import { FC } from 'react'
 import { Share } from '@mui/icons-material'
+import { Gallery } from './Gallery'
 
 const Product:FC<ProductProps> = ({ product }) => {
   const generateSlug = (text: string): string =>{
@@ -33,7 +34,9 @@ const Product:FC<ProductProps> = ({ product }) => {
       <Paper sx={{ overflow: 'hidden', mb: 4, p:2, borderRadius: 1, backgroundColor: '#fff' }} elevation={3}>
         <Grid2 container spacing={{ xs:1, md: 2 }}>
           <Grid2 size={{ xs:12, md:7 }} sx={{ overflow: 'hidden', display: 'flow' }}>
-            { product.main_image && <Box component={'img'} src={ product.main_image } alt={ product.name } sx={{ width: '100%', height: 'auto', borderRadius: 2 }} />}
+            <Gallery images={ product.pictures } />
+
+            {/* { product.main_image && <Box component={'img'} src={ product.main_image } alt={ product.name } sx={{ width: '100%', height: 'auto', borderRadius: 2 }} />}
             
             <ImageList sx={{ maxWidth: '100%'  }} cols={ product.pictures.length > 1 ? 2 : 1}>
               {product.pictures.map((item) => (
@@ -45,7 +48,7 @@ const Product:FC<ProductProps> = ({ product }) => {
                   />
                 </ImageListItem>
               ))}
-            </ImageList>
+            </ImageList> */}
           </Grid2>
 
           <Grid2 size={{ xs:12, md: 5 }} 
@@ -63,6 +66,10 @@ const Product:FC<ProductProps> = ({ product }) => {
                 overflow: 'auto',
               }}>
               <h1>{ product.name }</h1>
+              { product.reference && 
+                <Link href={ product.reference } target="_blank">Ver Producto de Referencia</Link>
+              }
+              
               <Typography 
                 sx={{ color: '#34495e', textAlign: 'left' }}
                 dangerouslySetInnerHTML={{ __html: product.description }}></Typography>

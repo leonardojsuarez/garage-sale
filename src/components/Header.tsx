@@ -5,7 +5,8 @@ export const Header = () => {
     const fontTheme = {
         color: '#2f3542',
         textAlign: 'center',
-        fontWeight: 'lighter'
+        fontWeight: 'bolder',
+        fontFamily: '"Plus Jakarta Sans", serif'
     }
 
     const shareSite = () => {
@@ -16,11 +17,11 @@ export const Header = () => {
         <>
             <Box component={'header'} sx={{ with: '100%', p: 4, textAlign: 'center' }}>
                 <Typography 
-                    variant="h6"
+                    variant="h3"
                     component={'h1'}
                     sx={fontTheme}
                 >
-                    Hola!, soy Leo. Me estoy mudando y te comparto algunas cositas de casa que estan en venta.
+                    VENTA DE GARAGE
                 </Typography>
                 <Button variant="contained" 
                     onClick={ () => shareSite() } 
