@@ -1,6 +1,10 @@
+const random = () => {
+    const d = new Date()
+    return `${d.getFullYear()}.${d.getMonth()}.${d.getDate()}.${d.getHours()}`
+}
+
 export const DataService = async () => {
-    // return json ?? []
-    const response = await fetch('https://leonardojsuarez.sirv.com/database/db.json')
+    const response = await fetch(`https://leonardojsuarez.sirv.com/database/db.json?${random()}`)
 
     if (!response.ok) {
         throw new Error(`Response status: ${response.status}`);
