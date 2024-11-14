@@ -11,7 +11,7 @@ export const Header = () => {
         <>
             <Box component={'header'} sx={{ with: '100%', p: 4 }}>
                 <Typography 
-                    variant="h3"
+                    variant="h6"
                     component={'h1'}
                     sx={fontTheme}
                 >

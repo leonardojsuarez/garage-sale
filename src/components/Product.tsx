@@ -33,6 +33,8 @@ const Product:FC<ProductProps> = ({ product }) => {
       <Paper sx={{ overflow: 'hidden', mb: 4, p:2, borderRadius: 1, backgroundColor: '#fff' }} elevation={3}>
         <Grid2 container spacing={{ xs:1, md: 2 }}>
           <Grid2 size={{ xs:12, md:7 }} sx={{ overflow: 'hidden', display: 'flow' }}>
+            { product.main_image && <Box component={'img'} src={ product.main_image } alt={ product.name } sx={{ width: '100%', height: 'auto', borderRadius: 2 }} />}
+            
             <ImageList sx={{ maxWidth: '100%'  }} cols={ product.pictures.length > 1 ? 2 : 1}>
               {product.pictures.map((item) => (
                 <ImageListItem key={item}>
