@@ -1,5 +1,5 @@
 import { Share } from '@mui/icons-material'
-import { Box, Button, Typography } from '@mui/material'
+import { Avatar, Box, Button, Typography } from '@mui/material'
 
 export const Header = () => {
     const fontTheme = {
@@ -21,6 +21,14 @@ export const Header = () => {
                     component={'h1'}
                     sx={fontTheme}
                 >
+                    <Avatar src="https://cdn.dribbble.com/users/711167/screenshots/10593461/media/4b666c161141c953bdc2570cf9dbac63.gif" 
+                        sx={{ 
+                            width: 100, 
+                            height: 100, 
+                            margin: '0 auto', 
+                            display: 'block' 
+                        }}
+                    />
                     VENTA DE GARAGE
                 </Typography>
                 <Button variant="contained" 
